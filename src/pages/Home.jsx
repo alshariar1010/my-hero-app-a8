@@ -11,6 +11,9 @@ const Home = () => {
       <section className="bg-[#f5f5f5] pt-20 text-center">
         <div className="container mx-auto px-4">
 
+          <div className="Installed mb-6 md:hidden">
+            <Link to="/installation" className="bg-gradient-to-r from-[#6d37e5]  to-[#9f62f2] text-white px-8 py-2 rounded-sm hover:bg-purple-700 inter">installation</Link>
+          </div>
 
           <h1 className="text-[#192f45] text-5xl inter md:text-6xl font-bold mb-4">We Build <br />
           {/* i add a font style */}
@@ -62,7 +65,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-4 text-center text-[#001931] inter">Trending Apps</h2>
           <p className="text-[#627382] mb-8 text-center inter">Explore All Trending Apps on the Market developed by us</p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+          <div className="grid m-5 grid-cols-1 md:grid-cols-4 gap-6 mb-8">
             {topApps.map(app => <AppCard key={app.id} app={app} />)}
           </div>
           <div className="text-center">
