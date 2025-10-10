@@ -6,14 +6,14 @@ const Header = () => {
 
   return (
     // header add
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-white shadow-sm sticky top-0 z-50 inter">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-purple-600 flex items-center">
           <div>
             <img className="w-10 h-10" src="/logo.png" alt="" />
           </div>
         </Link>
-        <nav className="hidden md:flex space-x-8 text-sm">
+        <nav className="hidden md:flex space-x-8 text-sm inter">
           <Link to="/" className={`hover:text-purple-600 py-1 ${getActiveClass('/')}`}>Home</Link>
           <Link to="/apps" className={`hover:text-purple-600 py-1 ${getActiveClass('/apps')}`}>Apps</Link>
           <Link to="/installation" className={`hover:text-purple-600 py-1 ${getActiveClass('/installation')}`}>Installation</Link>

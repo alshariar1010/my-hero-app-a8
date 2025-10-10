@@ -15,8 +15,8 @@ const AppNotFound = () => (
         <div className="ml-4">
         </div>
       </div>
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">OPPS!! APP NOT FOUND</h1>
-      <p className="text-gray-600 mb-4">TThe App you are requesting is not found on our system.  please try another apps</p>
+      <h1 className="text-3xl font-bold text-gray-800 mb-4 inter">OPPS!! APP NOT FOUND</h1>
+      <p className="text-gray-600 mb-4 inter">TThe App you are requesting is not found on our system.  please try another apps</p>
       <Link to="/apps" className="bg-gradient-to-r from-[#6d37e5] to-[#9f62f2] text-white px-8 py-2 rounded-sm hover:bg-purple-700">Go Back!</Link>
     </div>
   </div>
@@ -79,13 +79,13 @@ const AppDetails = () => {
             <img src={app.image} alt={app.title} className="w-full md:w-1/3 h-full md:h-64 object-cover rounded-lg" />
             <div className="md:w-2/3 space-y-4">
               <h1 className="text-3xl font-bold text-gray-800">{app.title}</h1>
-              <p className="text-gray-600">Developed by <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8452e9] to-[#9b66f0] font-bold">{app.companyName}</span></p>
+              <p className="text-gray-600 inter">Developed by <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8452e9] to-[#9b66f0] font-bold">{app.companyName}</span></p>
               <hr className="text-[#d2d2d2]" />
               <div className="flex flex-wrap items-center gap-2 md:gap-10 text-lg">
 
                 <div className="ch1">
                   <img className="h-8 w-8" src="/downloads.png" alt="" />
-                  <p className="text-sm text-gray-500 py-0.5">downloads</p>
+                  <p className="text-sm inter text-gray-500 py-0.5">downloads</p>
                   <h2 className="font-bold md:text-3xl"><span className="text-green-600">{app.downloads.toLocaleString()}K</span></h2>
                 </div>
                 <div className="ch1">
@@ -96,7 +96,7 @@ const AppDetails = () => {
                 <div className="ch1">
                   <img className="h-8 w-8" src="/review.png" alt="" />
                   <p>Totall Reviews</p>
-                  <h2 className="font-bold md:text-3xl"><span className="text-gray-600">{app.reviews.toLocaleString()}K</span></h2>
+                  <h2 className="font-bold inter md:text-3xl"><span className="text-gray-600">{app.reviews.toLocaleString()}K</span></h2>
                 </div>
               </div>
 
@@ -111,7 +111,7 @@ const AppDetails = () => {
           </div>
           <hr className="text-[#d2d2d2]" />
           <div className="p-6 bg-gray-50">
-            <h2 className="text-xl font-bold mb-4">Ratings</h2>
+            <h2 className="text-xl inter font-bold mb-4">Ratings</h2>
             <ResponsiveContainer width="100%" height={200}>
               <BarChart data={chartData} layout="vertical">
                 <XAxis type="number" hide />
@@ -127,7 +127,7 @@ const AppDetails = () => {
           </div>
 
           <div className="p-6 md:p-8">
-            <h2 className="text-xl font-bold mb-4">Description</h2>
+            <h2 className="text-xl inter font-bold mb-4">Description</h2>
             <div className="text-gray-700 leading-relaxed text-base space-y-4">
               {app.description.split('\n\n').map((para, i) => <p key={i}>{para}</p>)}
             </div>

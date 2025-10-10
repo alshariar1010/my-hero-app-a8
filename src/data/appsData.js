@@ -13,7 +13,7 @@ export const appsData = [
   },
   {
     id: 2,
-    image: "https://img.icons8.com/color/96/todo-list.png",
+    image: "https://play-lh.googleusercontent.com/pjUulZ-Vdo7qPKxk3IRhnk8SORPlgSydSyYEjm7fGcoXO8wDyYisWXwQqEjMryZ_sqK2=w480-h960-rw",
     title: "Smpl:ToDo List With Reminder",
     companyName: "HERO.IO",
     description: "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review stats about their focus habits over time. The design is minimal and calming, building a healthy rhythm between work and rest.\n\nA unique feature of this app is the integration of task lists with timers. You can assign each task a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you've worked but also which tasks consume the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.\n\nFor people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you're studying for exams, coding, writing, or handling office work, this app ensures that you not only work harder but also smarter. It's a combining focus tracking, task management, and motivational tools to keep you productive throughout the day.",
@@ -25,7 +25,7 @@ export const appsData = [
   },
   {
     id: 3,
-    image: "https://img.icons8.com/color/96/tomato.png",
+    image: "https://play-lh.googleusercontent.com/k0p0PlV3iitTUJaBk4P2NWiMHcAKrI7gB0ap7b9sIVCcKvE9RT6MTLf1Fr5oOUMQ1nFc=w480-h960-rw",
     title: "FLP - Focus Timer for Study",
     companyName: "HERO.IO",
     description: "Pomodoro timer tailored for students with study playlists and progress tracking. Set up your study sessions with built-in timers that align with your learning style, and get notifications to take breaks. Track your study hours and see improvement graphs over time.\n\nIncludes flashcards integration and quiz modes to test knowledge during breaks. Share your progress with study buddies for accountability. Ideal for exam prep and daily learning routines.\n\nWith customizable themes and voice-guided sessions, it turns studying into an engaging experience rather than a chore.",
@@ -37,7 +37,7 @@ export const appsData = [
   },
   {
     id: 4,
-    image: "https://img.icons8.com/color/96/cat.png",
+    image: "https://play-lh.googleusercontent.com/2-coFiL20JMqVh6mWWyn1ZpkOxn90NGYkLSvj5lxlk6yBBucC5LpcLS0G_pq3xG8owbN=w480-h960-rw",
     title: "Pomocat - Cute Pomodoro Timer",
     companyName: "HERO.IO",
     description: "Adorable cat-themed Pomodoro timer to make focus sessions fun and engaging. Watch cute cats 'purr' during work and 'nap' during breaks. Collect cat badges for completed sessions.\n\nFeatures pet-inspired sounds and animations, with mood-based themes. Share your cat collection on social media. Perfect for cat lovers who need a fun twist on productivity tools.\n\nIntegrates with habit trackers to build long-term routines, making every tick of the clock feel playful.",
@@ -49,7 +49,7 @@ export const appsData = [
   },
   {
     id: 5,
-    image: "https://img.icons8.com/color/96/calendar.png",
+    image: "https://play-lh.googleusercontent.com/hG81wXwHp6IDKf0GL6wojORaoRV4c78wLwV8RlGhW5Ace5FvYt8jO1Y0lX4tSLbTQw=w480-h960-rw",
     title: "Time Planner: Schedule & Tasks",
     companyName: "HERO.IO",
     description: "Advanced scheduling app for managing daily tasks and calendar integration. Drag-and-drop events, set recurring reminders, and visualize your week at a glance.\n\nSyncs with Google Calendar and Outlook for seamless cross-platform use. Includes AI suggestions for optimal time blocking based on your habits.\n\nBoost your time management with detailed reports on how you spend your day, helping you reclaim hours lost to inefficiency.",
@@ -61,7 +61,7 @@ export const appsData = [
   },
   {
     id: 6,
-    image: "https://img.icons8.com/color/96/sun.png",
+    image: "https://play-lh.googleusercontent.com/kfpAxLPDEfpr3-uMNfHy8Xf4EmQZ-GvqhnOlytzM90j-3phnjAuHVreoo_ldEA8QGA=w480-h960-rw",
     title: "Morning Habits - Daily Routine",
     companyName: "HERO.IO",
     description: "Build and track your morning routine with habit streaks and motivational tips. Start your day with guided routines for hydration, exercise, and mindfulness.\n\nCustomizable checklists and progress visualizations keep you accountable. Integrate with fitness trackers for holistic health monitoring.\n\nTransform your mornings into power hours, with adaptive suggestions that evolve with your consistency levels.",
@@ -73,7 +73,7 @@ export const appsData = [
   },
   {
     id: 7,
-    image: "https://img.icons8.com/color/96/forest.png",
+    image: "https://play-lh.googleusercontent.com/Dp9w3L54TBZgWPB1auw22DQ7Dgzj-6iceKy_A2KgSqpbEoFKIo__WCqLxHyfDl2pZ0s=s96-rw",
     title: "Focus Plant: Pomodoro Forest",
     companyName: "HERO.IO",
     description: "Grow a virtual forest by staying focused, combining Pomodoro with eco-gamification. Each completed session plants a tree, contributing to real-world reforestation efforts.\n\nTrack your carbon offset and share your forest with friends. Includes community challenges for group motivation.\n\nA sustainable way to productivity, where your focus directly impacts the planet.",
@@ -85,7 +85,7 @@ export const appsData = [
   },
   {
     id: 8,
-    image: "https://img.icons8.com/color/96/alarm.png",
+    image: "https://play-lh.googleusercontent.com/gXJLTDIvxXTK6uKl2e3Od_zmrlEul1CbkgxWxjbGeDzLl4EMFsdfER2VEgqAue2v1TE=w480-h960-rw",
     title: "Alarmy - Alarm Clock & Sleep",
     companyName: "HERO.IO",
     description: "Smart alarm clock with sleep tracking and gentle wake-up sounds. Analyze your sleep cycles and wake during light phases for refreshed mornings.\n\nIntegrate with wearables for accurate data. Set smart alarms based on your schedule and energy levels.\n\nImprove sleep quality with bedtime stories and relaxation sounds, turning rest into a science.",

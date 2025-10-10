@@ -42,8 +42,8 @@ const AllApps = () => {
   return (
     <div className="py-16 bg-gray-50 min-h-screen">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-2 text-[#001931] text-center">Our All Applications</h1>
-        <p className="text-[#627382] mb-8 text-center">Explore All Apps on the Market developed by us. We code for Millions</p>
+        <h1 className="text-4xl font-bold mb-2 text-[#001931] text-center inter">Our All Applications</h1>
+        <p className="text-[#627382] mb-8 text-center inter">Explore All Apps on the Market developed by us. We code for Millions</p>
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
           <span className="text-[#001931] font-semibold text-2xl">({filteredApps.length}) Apps Found</span>
           <div className="relative w-full md:w-64">
@@ -69,7 +69,7 @@ const AllApps = () => {
             <span className="text-6xl mb-4">
               <img src="/Appe.png" alt="" />
             </span>
-            <p className="text-gray-500 text-xl">No App Found</p>
+            <p className="text-gray-500 text-xl inter">No App Found</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">

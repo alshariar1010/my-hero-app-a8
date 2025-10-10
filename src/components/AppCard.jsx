@@ -14,11 +14,11 @@ const AppCard = ({ app, showUninstall = false, onUninstall }) => (
       <Link to={`/app/${app.id}`} className="block">
         <img src={app.image} alt={app.title} className="w-full h-full object-cover items-center justify-center rounded-lg" />
         <div className="p-4">
-          <h3 className="font-semibold text-[#001931] text-sm mb-1 line-clamp-2">{app.title}</h3>
+          <h3 className="font-semibold inter text-[#001931] text-sm mb-1 line-clamp-2">{app.title}</h3>
           <div className="flex justify-between">
             {/* star and download */}
-          <p className="text-xs text-[#00D390] font-semibold bg-[#F1F5E8] p-2 rounded-sm"><i class="fa-solid fa-download"></i>{app.downloads.toLocaleString()}K</p>
-          <p className="text-xs text-[#FF8811] font-semibold bg-[#FFF0E1] p-2 rounded-sm"><i class="fa-solid fa-star"></i> {app.ratingAvg}</p> </div>
+          <p className="text-xs inter text-[#00D390] font-semibold bg-[#F1F5E8] p-2 rounded-sm"><i class="fa-solid fa-download"></i>{app.downloads.toLocaleString()}K</p>
+          <p className="text-xs inter text-[#FF8811] font-semibold bg-[#FFF0E1] p-2 rounded-sm"><i class="fa-solid fa-star"></i> {app.ratingAvg}</p> </div>
         </div>
       </Link>
     ) : (
@@ -26,8 +26,8 @@ const AppCard = ({ app, showUninstall = false, onUninstall }) => (
       <div className="flex">
         <img src={app.image} alt={app.title} className="w-20 h-20 object-cover items-center justify-center rounded-lg" />
         <div className="p-4">
-          <h3 className="font-semibold text-[#001931] text-xl line-clamp-2 mb-1">{app.title}</h3>
-          <p className="text-xs text-[#627382]"><span className='text-[#FF8811] mr-3'><i class="fa-solid fa-star"></i> {app.ratingAvg}</span>  {app.size}MB</p>
+          <h3 className="font-semibold inter text-[#001931] text-xl line-clamp-2 mb-1">{app.title}</h3>
+          <p className="text-xs text-[#627382]"><span className='text-[#FF8811] mr-3'><i class="fa-solid fa-star inter"></i> {app.ratingAvg}</span>  {app.size}MB</p>
         </div></div>
       </>
     )}

@@ -5,12 +5,12 @@ const Footer = () => (
         <span className="mr-2">
           <img className="w-8 h-8" src="/logo.png" alt="" />
         </span>
-        <span className="text-1xl font-bold">HERO.IO</span>
+        <span className="text-1xl font-bold inter">HERO.IO</span>
       </div>
 
     </div>
     <div className="flex justify-around items-center py-3">
-      <div className="comph">
+      <div className="comph inter">
         <ul>
           <li><a href="#" ><i class="fa-solid fa-house"></i> Home</a></li>
           <li><a href="#" ><i class="fa-solid fa-address-card"></i> About US</a></li>
@@ -18,7 +18,7 @@ const Footer = () => (
           <li><a href="#" ><i class="fa-solid fa-address-book"></i> Contact</a></li>
         </ul>
       </div>
-      <div className="quick-links">
+      <div className="quick-links inter">
         <ul>
           <li><a href="#"><i class="fa-brands fa-facebook"></i> Fackbook</a></li>
           <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
@@ -27,8 +27,8 @@ const Footer = () => (
         </ul>
       </div>
     </div>
-    <hr className="text-white py-1" />
-    <p className="text-sm text-gray-400 text-center">Copyright © 2025 - All right reserved</p>
+    <hr className="text-white py-1 inter" />
+    <p className="text-sm text-gray-400 text-center inter">Copyright © 2025 - All right reserved</p>
   </footer>
 );
 
