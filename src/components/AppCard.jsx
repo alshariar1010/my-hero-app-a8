@@ -26,7 +26,7 @@ const AppCard = ({ app, showUninstall = false, onUninstall }) => (
       <div className="flex">
         <img src={app.image} alt={app.title} className="w-20 h-20 object-cover items-center justify-center rounded-lg" />
         <div className="p-4">
-          <h3 className="font-semibold text-[#001931] text-xl mb-1 line-clamp-2 mb-1">{app.title}</h3>
+          <h3 className="font-semibold text-[#001931] text-xl line-clamp-2 mb-1">{app.title}</h3>
           <p className="text-xs text-[#627382]"><span className='text-[#FF8811] mr-3'><i class="fa-solid fa-star"></i> {app.ratingAvg}</span>  {app.size}MB</p>
         </div></div>
       </>

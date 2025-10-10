@@ -72,7 +72,7 @@ const AllApps = () => {
             <p className="text-gray-500 text-xl">No App Found</p>
           </div>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {filteredApps.map(app => <AppCard key={app.id} app={app} />)}
           </div>
         )}

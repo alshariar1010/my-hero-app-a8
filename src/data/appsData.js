@@ -1,7 +1,7 @@
 export const appsData = [
   {
     id: 1,
-    image: "https://img.icons8.com/color/96/000000/forest-app.png",
+    image: "https://www.forestapp.cc/img/icon.png",
     title: "Forest: Focus for Productivity",
     companyName: "HERO.IO",
     description: "Stay focused and build productive habits with this gamified tree-growing timer. Plant virtual trees during your focus sessions, and watch your forest grow as you complete tasks without distractions. The app integrates seamlessly with your calendar and reminds you to stay on track.\n\nFeatures include customizable timers, ambient sounds for concentration, and progress analytics to see your productivity trends over weeks. Perfect for students, professionals, and anyone looking to reduce screen time and boost efficiency. Join millions who have transformed their habits with this eco-friendly approach to focus.\n\nWhether you're studying for exams or tackling work projects, Forest makes productivity fun and rewarding, helping you build a greener digital footprint.",
@@ -109,7 +109,7 @@ export const appsData = [
   },
   {
     id: 10,
-    image: "https://img.icons8.com/color/96/notebook.png",
+    image: "https://play-lh.googleusercontent.com/YFqIlpawCRLToQqCM8KbbVZY5Ks7nLNq49e3jsXckM_rfiQXjCJynfksfHy01_dZYw=w480-h960-rw",
     title: "Quick Notes & Journal",
     companyName: "HERO.IO",
     description: "Fast note-taking app with journaling features and cloud sync. Capture ideas on the fly, organize with tags, and reflect daily with prompts.\n\nRich text support and voice-to-text for effortless entry. Export to PDF or share securely.\n\nYour digital brain, always accessible and searchable across devices.",
@@ -181,7 +181,7 @@ export const appsData = [
   },
   {
     id: 16,
-    image: "https://img.icons8.com/color/96/music-note.png",
+    image: "https://play-lh.googleusercontent.com/41A-nGRQwv1WaUbeRWBwpH9FePQa4W2MHTe_YLi4coIQ_VEk4nyEe99aL6ZiYuNVDg=w480-h960-rw",
     title: "Melody Focus: Music Timer",
     companyName: "HERO.IO",
     description: "Combine your favorite playlists with timed focus sessions to enhance productivity. Select tracks that motivate you and let the app sync breaks with song changes. Detailed analytics track mood-based performance.\n\nIdeal for creative professionals, with features like collaborative playlists and real-time collaboration tools. Dive deeper into your workflow with personalized recommendations based on listening history.\n\nTurn music into a productivity ally, with lyric displays and focus mode that blocks notifications during sessions.",
@@ -217,7 +217,7 @@ export const appsData = [
   },
   {
     id: 19,
-    image: "https://img.icons8.com/color/96/weather.png",
+    image: "https://play-lh.googleusercontent.com/rWWb2gQZNBmL2wBqHX4fTHmLw0H3nlxblIW4JMcQgYdEG8SX5blGfx06-NG5va2Ke8cj=w480-h960-rw",
     title: "Weather Pro Tracker",
     companyName: "HERO.IO",
     description: "Get hyper-local weather forecasts with radar maps and severe alerts. Customize widgets for your home screen.\n\nIntegrate with smart home devices for automated responses to weather changes, keeping you prepared.\n\nFrom hourly updates to 10-day plans, stay ahead with air quality and pollen counts.",
@@ -301,7 +301,7 @@ export const appsData = [
   },
   {
     id: 26,
-    image: "https://img.icons8.com/color/96/podcast.png",
+    image: "https://play-lh.googleusercontent.com/2lOzYHjYUPJnsQjew-WhXrfG14BATfAEIdQthFt1UfKhKHpQBLXNN1g0nxIEZZHu5Cc=w480-h960-rw",
     title: "Pod Pulse: Podcast Tracker",
     companyName: "HERO.IO",
     description: "Discover and track podcasts with personalized feeds and episode notes. Set listening goals and get offline downloads for commutes.\n\nCurated recommendations based on genres and moods. Join discussions in built-in forums.\n\nElevate your audio journey with speed controls and chapter summaries for efficient listening.",
@@ -313,7 +313,7 @@ export const appsData = [
   },
   {
     id: 27,
-    image: "https://img.icons8.com/color/96/vinyl.png",
+    image: "https://play-lh.googleusercontent.com/lhZ7xLOGUxFb0RqtHeErilgnH0aYn_-D5YbB2n6dqbKxxghtb_fl6uwnmj6d5oVotA=w480-h960-rw",
     title: "Vinyl Vault: Music Library",
     companyName: "HERO.IO",
     description: "Organize your music collection with smart tagging and playlist curation. Scan covers for instant cataloging and high-res playback.\n\nSocial sharing of mixes and discovery of rare tracks. Integrate with streaming services for hybrid libraries.\n\nPreserve your tunes with backup features and nostalgic vinyl simulations for a retro vibe.",
@@ -361,7 +361,7 @@ export const appsData = [
   },
   {
     id: 31,
-    image: "https://img.icons8.com/color/96/gardening.png",
+    image: "https://play-lh.googleusercontent.com/RAEysqZx4iL9D60QgCFU5svg6sPsIEsXf_lDCCAY097b26StlmVupXrOu5LiGDutp_c=w480-h960-rw",
     title: "Green Thumb: Plant Care",
     companyName: "HERO.IO",
     description: "Care for plants with reminders and growth trackers. Identify species via photo scans and get care tips.\n\nCommunity plant swaps and virtual garden designs. Log health issues for expert advice.\n\nNurture your greenery with seasonal calendars and pest alerts for thriving indoor jungles.",
@@ -373,7 +373,7 @@ export const appsData = [
   },
   {
     id: 32,
-    image: "https://img.icons8.com/color/96/recipe-book.png",
+    image: "https://play-lh.googleusercontent.com/Ie88X5s51HN8-vfuNv_LYfamon6JAvFnxfbIrxXrI0LRd9vpnEQWAq5Pz83bEJU4Sfc=w480-h960-rw",
     title: "Cook Easy: Recipe Manager",
     companyName: "HERO.IO",
     description: "Save and organize recipes with ingredient lists and timers. Scale portions and generate shopping lists automatically.\n\nDietary filters and meal planners for weekly prep. Share family favorites in private groups.\n\nWhip up meals with video tutorials and nutrition breakdowns for healthier cooking.",
@@ -397,7 +397,7 @@ export const appsData = [
   },
   {
     id: 34,
-    image: "https://img.icons8.com/color/96/scan.png",
+    image: "https://play-lh.googleusercontent.com/eWYNxjXiub6-HqtwoS2d4bl-NkqcKgOHansSnXXqje8-K9XLRwflOgEYwSzPMicdAA=w480-h960-rw",
     title: "Doc Scan: PDF Converter",
     companyName: "HERO.IO",
     description: "Scan documents with OCR for editable text. Organize files with tags and secure sharing options.\n\nBatch processing and cloud backups for professionals. Compress files without quality loss.\n\nGo paperless with auto-cropping and multi-page support for efficient archiving.",
